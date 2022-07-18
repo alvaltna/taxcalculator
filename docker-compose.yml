@@ -1,0 +1,43 @@
+version: "3.9"
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    ports:
+    - "5433:5432"
+    volumes:
+    - /data/postgres:/data/postgres
+    env_file:
+    - docker.env
+  redis:
+    container_name: redis
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+  redis-commander:
+    container_name: redis-commander
+    hostname: redis-commander
+    image: ghcr.io/joeferner/redis-commander:latest
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    ports:
+      - "8081:8081"
+  back-end:
+    container_name: nestjs-server
+    build: ./back-end/nestjs-server
+    ports:
+      - "3000:3000"
+    depends_on:
+      postgres:
+        condition: service_started
+      redis:
+        condition: service_started
+  front-end:
+    container_name: vue-app
+    build: ./front-end/vue-app
+    ports:
+      - "8080:80"
+    depends_on:
+      back-end:
+        condition: service_started
+
