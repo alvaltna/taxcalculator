@@ -20,10 +20,10 @@ Countries can be deleted from the table.<br />
 New countries can be added to the table. <br />
 <br />
 All the actions in 'Countries view' demand JWT to be sent with the request. <br />
-<b>JWT</b>: <b>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SneQiuAGUW9aTpxlNNbMkEoYNj7v4-Sw_5jl13-hosk<b> <br />
+<b>JWT</b>: <b>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SneQiuAGUW9aTpxlNNbMkEoYNj7v4-Sw_5jl13-hosk</b> <br />
 This <b>JWT</b> must be added to browser Local Storage. <br /> 
 <b>Key</b>: 'Authorization' <br />
-<b>Value</b>: Bearer <b>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SneQiuAGUW9aTpxlNNbMkEoYNj7v4-Sw_5jl13-hosk<b><br />
+<b>Value</b>: Bearer <b>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SneQiuAGUW9aTpxlNNbMkEoYNj7v4-Sw_5jl13-hosk</b><br />
 <br />
 <img width="924" alt="CountriesView" src="https://user-images.githubusercontent.com/96142379/179543980-00deb299-9ff1-434b-9455-6020a1cacd08.PNG">
 
