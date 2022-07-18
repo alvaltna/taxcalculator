@@ -34,3 +34,10 @@ Clone this repository to a folder. <br />
 Run command 'docker-compose up' from working directory which is where docker-compose.yml file is located.<br /> 
 <br />
 Application should then be accessable from 'localhost:8080'.<br />
+
+Stack <br />  
+
+Front-end: Vue.js <br /> 
+Back-end: Nest.js and TypeScript <br /> 
+Database: PostgreSql <br /> 
+CacheManager: Redis <br />
