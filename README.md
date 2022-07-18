@@ -35,6 +35,7 @@ Run command 'docker-compose up' from working directory which is where docker-com
 <br />
 Application should then be accessable from 'localhost:8080'.<br />
 <br />
+
 ## Stack <br />  
 <br />
 Front-end: Vue.js <br /> 
